@@ -19,6 +19,7 @@ A little bit of both... in other words it has a couple of stages that starts wit
 
 ```
   SYNTAX: 
+  
   Starting point: START
   Input: READ, GET
   Output: PRINT
@@ -31,6 +32,7 @@ A little bit of both... in other words it has a couple of stages that starts wit
 
 ```
   SOLUTION:
+  
   START 
   dollarsAmount <-- GET 
   btcCurrentPrice <-- 45,289.10 
