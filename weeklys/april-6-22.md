@@ -31,3 +31,67 @@ Month (4) = 1 0 0
 Year of Birth (1989) = 1 1 1 1 1 0 0 0 1 0 1
 --------------------------------------------
 ```
+
+# MIPS Challenges
+
+### Sum of two numbers
+
+```
+  .data
+        message: .asciiz "\n.:: Sum of Two Numbers  ::.\n"
+        total: .asciiz "\nResult is: "
+        num1_message: .asciiz "\nNumber one: "
+        num2_message: .asciiz "\nNumber two: "
+  .text
+        main:
+              # message
+              li $v0, 4
+              la $a0, message
+              syscall
+
+              # user input
+              li $v0, 4
+              la $a0, num1_message
+              syscall
+
+              li $v0, 5
+              syscall
+
+              # saving user input
+              move $t0, $v0
+
+              # user input
+              li $v0, 4
+              la $a0, num2_message
+              syscall
+
+              li $v0, 5
+              syscall
+
+              # saving user input
+              move $t1, $v0
+
+              # adding the user numbers
+              add $t2, $t0, $t1
+
+              # show total
+              li $v0, 4
+              la $a0, total
+              syscall
+
+              # printing number
+              li $v0, 1
+              move $a0, $t2
+              syscall
+```
+
+### Print My Name
+```
+  .data
+	      name: .asciiz "\nJonathan Juarez (HackMort)\n"
+  .text
+	      main:
+              li $v0, 4
+              la $a0, name
+              syscall
+```
