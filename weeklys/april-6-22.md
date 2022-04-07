@@ -1,6 +1,6 @@
 # Date of Birth in Binary
 
-Date of Birth: 12-4-1989
+Date of Birth: 12-4-1989 (day/month/year)
 
 ```
 12 / 2 = 6 -> 0
