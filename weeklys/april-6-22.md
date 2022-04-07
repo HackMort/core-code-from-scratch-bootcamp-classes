@@ -2,7 +2,16 @@
 
 Date of Birth: 12-4-1989 (day/month/year)
 
+By dividing by 2 we can get the binary number depending of the result for example: if the the result of the opration is an integer the number would be 0, if the result is a fraction the binary number would be 1 like below:
+
 ```
+
+Examples:
+10 / 2 = 5 --> 0
+5 / 2 = 2 --> 1 (5/2 = 2.5) We keep the integer to contiue operating.
+
+/******************* Challenge *******************/
+
 12 / 2 = 6 -> 0
 6 / 2 = 3 -> 0
 3 / 2 = 1 -> 1
@@ -10,12 +19,14 @@ Date of Birth: 12-4-1989 (day/month/year)
 ------------------
 Day (12) = 1 1 0 0
 ------------------
+
 4 / 2 = 2 -> 0
 2 / 2 = 1 -> 0
 1 / 2 = 0 -> 1
 -----------------
 Month (4) = 1 0 0
 -----------------
+
 1989 / 2 = 994 -> 1
 994 / 2 = 497 -> 0
 497 / 2 = 248 -> 1
