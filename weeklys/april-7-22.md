@@ -88,7 +88,7 @@ if ((cond = true)) { // this evaluation is wrong it should be == or even better 
 ### Solution
 ```javascript
 const cond = false;
-if ( cond === true ) {
+if (cond === true) {
   console.log('The variable cond is true');
 }
 else {
