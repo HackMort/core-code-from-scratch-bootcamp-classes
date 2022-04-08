@@ -105,7 +105,7 @@ else {
   if (number === 100) {
     console.log(`This is a special number!`);
   }
-  else if (number < 1000 && number % 10 === 0 && number !== 100) {
+  else if (number < 1000 && number % 10 === 0) {
     console.log(`This number is almost special!`);
   }
   else {
