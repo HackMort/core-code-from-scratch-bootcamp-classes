@@ -58,7 +58,7 @@ function getChar(c){
 const getChar = c => String.fromCharCode(c);
 ```
 
-# Binary Addition
+# Binary Addition Excercise
 
 ### Problem
 ```
@@ -79,7 +79,7 @@ function addBinary(a,b) {
 const addBinary = (a, b) => parseInt(a + b).toString(2);
 ```
 
-# Student's Final Grade
+# Student's Final Grade Excercise
 
 ### Problem
 ```
