@@ -7,3 +7,4 @@
 3. [April 7 2022](https://github.com/HackMort/core-code-from-scratch-bc-class-1/blob/master/weeklys/april-7-22.md)
 4. [April 19 2022](https://github.com/HackMort/core-code-from-scratch-bc-class-1/blob/master/weeklys/april-19-22.md)
 4. [April 20 2022](https://github.com/HackMort/core-code-from-scratch-bc-class-1/blob/master/weeklys/april-20-22.md)
+5. [April 21 2022](https://github.com/HackMort/core-code-from-scratch-bc-class-1/blob/master/weeklys/april-21-22.md)
