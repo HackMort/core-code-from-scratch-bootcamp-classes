@@ -94,5 +94,5 @@
   
 ```
 
-8. [Solution Readme - April 26 2022](https://github.com/HackMort/core-code-from-scratch-bc-class-1/blob/master/weeklys/april-26-22.md)
+8. [Solution Readme - April 26 2022](https://github.com/HackMort/core-code-from-scratch-bc-class-1/blob/master/weeklys/april-26-2022.md)
 
