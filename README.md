@@ -72,7 +72,7 @@
   
 ```
 
-6. [Solution Readme - April 21 2022](https://github.com/HackMort/core-code-from-scratch-bc-class-1/blob/master/weeklys/april-21-22.md)
+6. [Solution Readme - April 21 2022](https://github.com/HackMort/core-code-from-scratch-bc-class-1/blob/master/weeklys/april-21-2022.md)
 
 ```
 7.  April 25 2022 Excercises:
