@@ -85,3 +85,14 @@
 
 7. [Solution Readme - April 25 2022](https://github.com/HackMort/core-code-from-scratch-bc-class-1/blob/master/weeklys/april-25-22.md)
 
+```
+8.  April 26 2022 Excercises:
+  
+  1. Simple Pig Latin
+  2. Counting Duplicates
+  3. Decode The Morse Code
+  
+```
+
+8. [Solution Readme - April 26 2022](https://github.com/HackMort/core-code-from-scratch-bc-class-1/blob/master/weeklys/april-26-22.md)
+
