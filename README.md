@@ -1,6 +1,6 @@
 # core-code-from-scratch-bootcamp-classes
 
-### Weekly Challenges listed below:
+## Weekly Challenges listed below:
 
 ```
 1  April 5, 2022 Excercises:
