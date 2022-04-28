@@ -96,3 +96,14 @@
 
 8. [Solution Readme - April 26 2022](https://github.com/HackMort/core-code-from-scratch-bc-class-1/blob/master/weeklys/april-26-2022.md)
 
+```
+9.  April 27 2022 Excercises:
+  
+  1. Valid Parentheses 
+  2. Convert String To Camel Case
+  3. Unique In Order
+  
+```
+
+9. [Solution Readme - April 27 2022](https://github.com/HackMort/core-code-from-scratch-bc-class-1/blob/master/weeklys/april-27-22.md)
+
