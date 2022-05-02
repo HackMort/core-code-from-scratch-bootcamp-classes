@@ -134,3 +134,7 @@ function encryptText( item ) {
   
 }
 ```
+
+# Mission Statement
+
+Hello, my name is Jonathan Juarez. I'am a Web Developer focused on Front End. I've been developing websites for almost 7 years now, using WordPress as CMS. I love create Custom Themes for WordPress that satisfy the clients needs. Althought mostly is Front-End, since is WordPress, I'm also familiar with PHP. My goal for this year is to get better at JavaScript, learn TypeScript and also React. I always try my best and always like to challenge myself to create really cool stuffs.
