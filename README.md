@@ -107,3 +107,14 @@
 
 9. [Solution Readme - April 27 2022](https://github.com/HackMort/core-code-from-scratch-bc-class-1/blob/master/weeklys/april-27-22.md)
 
+```
+10.  April 28 2022 Excercises:
+  
+  1. Fold an Array
+  2. Encrypt this!
+  3. 1st CoreCode Challenge.
+  
+```
+
+10. [Solution Readme - April 28 2022](https://github.com/HackMort/core-code-from-scratch-bc-class-1/blob/master/weeklys/april-28-22.md)
+
