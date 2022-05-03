@@ -15,7 +15,7 @@ Examples
 
 ### Solution
 
-```
+```js
 function validParentheses(string) {
   let stack = [];
   for (let i = 0; i < string.length; i++) {
@@ -49,7 +49,7 @@ Examples
 
 ### Solution
 
-```
+```js
 function toCamelCase(str) {
   let newString = '';
   let words = str.split(/[-_]/);
@@ -63,7 +63,7 @@ function toCamelCase(str) {
   return newString;
 }
 
-------------- or --------------
+// OR
 
 const toCamelCase2 = str => str.split(/[^a-z]/i).map((word, index) =>
                             index > 0 ? word.charAt(0).toUpperCase() + word.slice(1) : word).join('')
@@ -75,8 +75,8 @@ const toCamelCase2 = str => str.split(/[^a-z]/i).map((word, index) =>
 
 Implement the function unique_in_order which takes as argument a sequence and returns a list of items without any elements with the same value next to each other and preserving the original order of elements.
 
-```
-For example:
+```js
+Examples:
 
 uniqueInOrder('AAAABBBCCDAABBB') == ['A', 'B', 'C', 'D', 'A', 'B']
 uniqueInOrder('ABBCcAD')         == ['A', 'B', 'C', 'c', 'A', 'D']
@@ -85,7 +85,7 @@ uniqueInOrder([1,2,2,3,3])       == [1,2,3]
 
 ### Solution
 
-```
+```js
 function uniqueInOrder(iterable) {
   if (iterable.length === 0) { return [] };
   let newArray = [];
@@ -100,7 +100,7 @@ function uniqueInOrder(iterable) {
   return newArray;
 }
 
---------------- or-----------------
+// OR
   
 const uniqueInOrder = (iterable) => [...iterable].filter((a, i) => a !== iterable[i - 1]);
 ```
