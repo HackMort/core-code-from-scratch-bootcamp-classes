@@ -2,7 +2,7 @@
 
 ### Problem
 Remove all exclamation marks from the end of sentence.
-```
+```js
 Examples:
 
 remove("Hi!") === "Hi"
@@ -14,7 +14,7 @@ remove("Hi") === "Hi"
 ```
 
 ### Solution
-```
+```js
 function remove(string) {
   const endOfString = string.length - 1;
   for (let i = endOfString; i > 0; i--) {
@@ -26,7 +26,7 @@ function remove(string) {
   return string;
 }
 
-------------- or -----------------
+// OR
 
 
 // RegEx
@@ -50,12 +50,12 @@ Examples:
 ```
 
 ### Solution
-```
+```js
 function shorcut(string) {
   return string.replace(/[aeiou]/gi, '');
 }
 
--------------- or ------------------
+// OR
 
 const shortcut = (string) => string.replace(/[aeiou]/gi, '');
 ```
@@ -64,7 +64,7 @@ const shortcut = (string) => string.replace(/[aeiou]/gi, '');
 
 ### Problem
 Let's play! You have to return which player won! In case of a draw return Draw!.
-```
+```js
 Examples: 
 
 rps('scissors','paper') // Player 1 won!
@@ -73,7 +73,7 @@ rps('paper','paper') // Draw!
 ```
 
 ### Solution
-```
+```js
 const rps = (p1, p2) => {
   
   if (p1 === p2) {
@@ -103,7 +103,7 @@ const rps = (p1, p2) => {
   
 };
 
-------------- or-----------------
+// OR
 
 // I really like this approach!
 
@@ -136,7 +136,7 @@ Examples:
 4 --> 0 (because 4 is already a one-digit number)
 ```
 ### Solution
-```
+```js
 function persistence(num) {  
   const nums = num.toString().split('');  
   if (nums.length === 1) {
