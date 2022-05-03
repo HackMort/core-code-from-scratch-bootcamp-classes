@@ -37,7 +37,7 @@ The input array should not be modified!
 
 Shot out to whoever did this at CoreCode, I couldn't really get it done without any hint of your solution, so thanks!
 
-```
+```js
 function foldArray(array, runs) {
   
   if (runs === 0 || array.length === 1) {
@@ -83,7 +83,7 @@ You want to create secret messages which can be deciphered by the Decipher this!
 4. The second letter must be switched with the last letter
 5. Keepin' it simple: There are no special characters in the input.
 
-```
+```js
 Examples:
 
 encryptThis("Hello") === "72olle"
@@ -93,9 +93,9 @@ encryptThis("hello world") === "104olle 119drlo"
 
 ### Solution
 
-```
+```js
 
-Arrow function: 
+// Arrow function: 
 
 const encryptThis = (text) => {
 
@@ -113,7 +113,7 @@ const encryptThis = (text) => {
  
 }
 
------------------- or -----------------
+// OR
 
 // Inspired by CoreCode Solution
 
