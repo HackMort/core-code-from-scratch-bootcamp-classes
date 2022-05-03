@@ -20,7 +20,7 @@ Note: For 4 or more names, the number in "and 2 others" simply increases.
 
 ### Solution
 
-```
+```js
 function likes(names) {
   const namesCount = names.length;
   if (namesCount === 0) {
@@ -38,7 +38,7 @@ function likes(names) {
   return `${names[0]}, ${names[1]} and ${namesCount - 2} others like this`;
 }
 
----------------- or -----------------
+// OR
 
 // I really like this one:
 
@@ -63,7 +63,7 @@ Example: The binary representation of ```1234``` is ```10011010010```, so the fu
 
 ### Solution
 
-```
+```js
 function countBits(n) {
   const number = n.toString(2);
   const array = number.split('');
@@ -97,7 +97,7 @@ If the input string is empty, return an empty string. The words in the input Str
 
 ### Solution
 
-```
+```js
 function order(words){
   if (words === '') {
     return ''
@@ -116,7 +116,7 @@ function order(words){
   return resultArray.join(' ');
 }
 
--------------- or -------------
+// OR
 
 function order(words){
 
