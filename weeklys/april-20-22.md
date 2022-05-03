@@ -9,14 +9,14 @@ You will be given the high street price (normPrice), the duty free discount (dis
 For example, if a bottle cost £10 normally and the discount in duty free was 10%, you would save £1 per bottle. If your holiday cost £500, the answer you should return would be 500.
 
 All inputs will be integers. Please return an integer. Round down.
-```
+```js
 function dutyFree(normPrice, discount, hol) {
   // Code
 }
 ```
 
 ### Solution
-```
+```js
 function dutyFree(normPrice, discount, hol) {
   
   const discPrice = ( normPrice * discount ) / 100;
@@ -29,7 +29,7 @@ function dutyFree(normPrice, discount, hol) {
   
 }
 
-------------- or ---------------
+// OR
 
 const dutyFree = (normPrice, discount, hol) => (
   Math.floor( hol / ( ( normPrice * discount ) / 100 ) ) 
@@ -48,14 +48,14 @@ Your function takes two arguments:
  
 Сalculate how many years ago the father was twice as old as his son (or in how many years he will be twice as old).
 
-```
+```js
 function twiceAsOld(dadYearsOld, sonYearsOld) {
   // your code here
 }
 ```
 
 ### Solution
-```
+```js
 function twiceAsOld(dadYearsOld, sonYearsOld) {
   const twiceAsOld = dadYearsOld - (sonYearsOld * 2);
   return Math.abs(twiceAsOld)
@@ -74,7 +74,7 @@ Your task is to write a function called valid_spacing() or validSpacing() which 
 For this kata, the definition of valid spacing is one space between words, and no leading or trailing spaces. Words can be any consecutive sequence of non space characters. Below are some examples of what the function should return:
 
 ### Solution
-```
+```js
 function validSpacing(s) {
   // If is an empty string
   if (s.length === 0) {
@@ -105,14 +105,14 @@ Given a string of digits, you should replace any digit below 5 with '0' and any 
 Note: input will never be an empty string
 
 
-```
+```js
 function fakeBin(x){
 
 }
 ```
 
 ### Solution
-```
+```js
 function fakeBin(x){
   
   let result = '';
