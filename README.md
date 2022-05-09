@@ -118,3 +118,12 @@
 
 10. [Solution Readme - April 28 2022](https://github.com/HackMort/core-code-from-scratch-bc-class-1/blob/master/weeklys/april-28-22.md)
 
+```
+11.  May 5 2022 Excercises:
+  
+  1. String Cleaning
+  2. Password Validation
+  
+```
+
+11. [Solution Readme - May 5 2022](https://github.com/HackMort/core-code-from-scratch-bc-class-1/blob/master/weeklys/may-5-22.md)
